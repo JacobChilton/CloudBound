@@ -38,7 +38,7 @@ public class PlaneTest3 : MonoBehaviour
     [SerializeField] private bool isGrounded, groundThrottle;
     private Rigidbody rb;
     private PlayerControls controls;
-    private bool flapsDeployed = true;
+    [SerializeField] private bool flapsDeployed = false;
     public float airspeed;
     private bool isFreeLook = false;
     [SerializeField] private RectTransform mouseIndicatorUI;
